@@ -108,7 +108,6 @@ Time: O(n) | Space: O(n)
 ---
 
 # Sol 4: Manual HashMap + Heap
-This is a very concise one-liner solution using Python’s built-in `sorted()` function with a custom lambda function to sort characters by frequency.
 
 ## Step-by-Step Logic
 1. Build frequency map `m` for all elements in `nums`.
@@ -139,7 +138,6 @@ Space: O(n)
 
 
 # Sol 5. Quickselect (Partition-based)
-This is a very concise one-liner solution using Python’s built-in `sorted()` function with a custom lambda function to sort characters by frequency.
 
 ## Step-by-Step Logic
 1. Count frequencies using `Counter`.
@@ -184,4 +182,3 @@ def topKFrequent(nums, k):
 ```
 Time: O(n) average, O(n²) worst  
 Space: O(n)  
-
