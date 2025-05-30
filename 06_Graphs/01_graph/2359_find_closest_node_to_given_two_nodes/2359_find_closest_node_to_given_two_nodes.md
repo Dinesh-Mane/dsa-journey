@@ -16,8 +16,7 @@ Input: edges = [1,2,-1], node1 = 0, node2 = 2
 Output: 2
 ```
 
-# Sol 1: DFS Distance Map from Both Nodes
-
+# Sol 1: Two Pointers + Hash Set
 ## step-by-step approach:
 1. Traverse from `node1` and record distances in `seen1`.
 2. Traverse from `node2` and record distances in `seen2`.
