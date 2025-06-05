@@ -170,7 +170,6 @@ def search(nums, target):
 
   * Compute middle index `m`.
   * Use `match nums[m]` to:
-
     * Return `m` if `nums[m] == target`.
     * Narrow to right half if `nums[m] < target`.
     * Narrow to left half otherwise.
